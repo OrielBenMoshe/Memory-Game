@@ -1,0 +1,156 @@
+* {
+  font-family: Alef;
+}
+
+body {
+  padding: 15px;
+  background-color: rgb(172, 190, 105);
+}
+
+header {
+  border-width: 5px;
+  border: 15px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-image: url("../img/trees.jpg");
+  background-size: 650px 300px;
+  height: 300px;
+  background-repeat: repeat-x;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 45px;
+  box-shadow: -2px 2px 3px rgb(39, 50, 53);
+  text-shadow: -2px 2px 3px rgb(170, 170, 170);
+  color: rgb(173, 89, 39);
+  padding: 8px 60px 8px 60px;
+  border: 4px solid #c7b3a2;
+  background: rgba(240, 240, 240, 0.8);
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+#jungle {
+  margin: 0;
+  font-size: 110px;
+  font-weight: 900;
+  color: #42372d;
+  text-shadow: -2px 1px 15px #969696;
+}
+
+h5 {
+  text-shadow: -2px 2px 3px rgb(170, 170, 170);
+  margin: 2px 2px;
+  color: rgb(255, 245, 245);
+}
+#owner {
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  box-shadow: -2px 2px 3px rgb(39, 50, 53);
+  text-shadow: -2px 2px 3px rgb(248, 248, 248);
+  padding: 2px;
+  background: rgba(240, 240, 240, 0.8);
+  border-radius: 5px;
+}
+#message {
+  margin: 20px 5px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+
+  background: linear-gradient(to right, #ff5722 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#bestScore {
+  font-size: xx-large;
+  height: 30px;
+}
+#newGame {
+  float: right;
+  margin-top: 10px;
+}
+#row2 {
+  /* display: inline; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: inline-block;
+  height: 200px;
+  width: 140px;
+  position: relative;
+  margin: 3px;
+}
+img {
+  position: absolute;
+  border-radius: 6px;
+  box-shadow: -2px 2px 3px rgb(71, 87, 92);
+  transition-duration: 0.4s;
+}
+
+div#cards {
+  margin-top: 30px;
+}
+
+.back {
+  visibility: visible;
+}
+
+div#timer {
+  text-align: center;
+  font-weight: 900;
+  font-size: xxx-large;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+span {
+  align-content: center;
+}
+
+button#bestScoreButton {
+  margin-top: 10px;
+}
+
+img.back:hover {
+  filter: contrast(170%);
+}
+
+button {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 12px 28px;
+  background-color: #af8349;
+  color: #f7fefe;
+  border: none;
+  box-shadow: -2px 2px 3px rgb(71, 87, 92);
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #ceae85;
+}
+
+:focus {
+  outline: 0;
+}
+
+button:active {
+  box-shadow: 0;
+  transform: scale(0.985);
+}
